@@ -1,0 +1,6 @@
+{
+    "project_name": "Cookiecutter Sith Saber",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author": "Darth Maul <darth.maul@sith.org>",
+    "description": "Python package to build Sith sabers 👹"
+}
