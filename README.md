@@ -17,9 +17,13 @@ Create project from this cookiecutter.
 cookiecutter gh:sh4x2/cookiecutter-python-basic
 ```
 
-Project directory structure.
+Sample project directory structure.
 ```
-my_python_project
+cookiecutter_sith_saber
+├── .github
+│   └── workflows
+│       └── ci.yml
+├── .gitignoreå
 ├── README.md
 ├── pyproject.toml
 ├── src
