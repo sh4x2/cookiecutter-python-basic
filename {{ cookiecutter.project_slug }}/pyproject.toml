@@ -11,7 +11,12 @@ python = "^{{ cookiecutter.python_version }}"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
-pytest = "^6.2.5"
+pytest = "^7.4.0"
+pyproject-flake8 = "^6.0.0.post1"
+pytest-cov = "^4.1.0"
+
+[tool.flake8]
+max-line-length = 5
 
 [build-system]
 requires = ["poetry-core"]
