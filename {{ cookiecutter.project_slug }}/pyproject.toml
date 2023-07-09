@@ -9,6 +9,9 @@ packages = [{include = "{{ cookiecutter.project_slug }}"}]
 [tool.poetry.dependencies]
 python = "^{{ cookiecutter.python_version }}"
 
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+pytest = "^6.2.5"
 
 [build-system]
 requires = ["poetry-core"]
