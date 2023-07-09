@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "{{ cookiecutter.project_slug }}"
-version = "0.1.0"
+version = "{{ cookiecutter.project_version }}"
 description = "{{ cookiecutter.description }}"
 authors = ["{{ cookiecutter.author }}"]
 readme = "README.md"
 packages = [{include = "{{ cookiecutter.project_slug }}"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^{{ cookiecutter.python_version }}"
 
 
 [build-system]
